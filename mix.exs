@@ -30,8 +30,8 @@ defmodule ExFirebaseAuth.MixProject do
   defp deps do
     [
       {:jose, "~> 1.10"},
-      {:finch, "~> 0.13.0"},
-      {:jason, "~> 1.4.0"},
+      {:finch, "~> 0.18.0"},
+      {:jason, "~> 1.4.1"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
